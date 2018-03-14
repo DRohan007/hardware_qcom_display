@@ -18,6 +18,8 @@
 
 #include <fcntl.h>
 #include <cutils/iosched_policy.h>
+#include <string.h>
+#include <errno.h>
 #include <log/log.h>
 #include <pthread.h>
 #include <sys/stat.h>
